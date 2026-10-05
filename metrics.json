@@ -1,0 +1,82 @@
+{
+  "n_rows": 1040,
+  "n_players": 300,
+  "baseline_MAE_mean": 3.217391826923077,
+  "full": {
+    "results": {
+      "Ridge Regression": {
+        "MAE": 1.0472945435774879,
+        "RMSE": 2.0619493086873177,
+        "R2": 0.7339289673846809,
+        "MAE_verified": 5.785557518863353
+      },
+      "Random Forest": {
+        "MAE": 0.8924249822002543,
+        "RMSE": 1.9629628554053304,
+        "R2": 0.7588619249150517,
+        "MAE_verified": 5.082562701431798
+      },
+      "Gradient Boosting": {
+        "MAE": 1.0126739684518142,
+        "RMSE": 2.050854671982469,
+        "R2": 0.736784536811067,
+        "MAE_verified": 5.027184273932759
+      }
+    },
+    "best": "Random Forest",
+    "resid_q10": -0.8902092338679851,
+    "resid_q90": 1.3382979767917245,
+    "importance": {
+      "Base_Price": 0.5854,
+      "Previous_Auction_Price": 0.3199,
+      "Strike_Rate": 0.0179,
+      "Matches": 0.0152,
+      "Economy": 0.0144,
+      "Wickets": 0.0119,
+      "Runs": 0.011,
+      "Runs_per_Match": 0.0086,
+      "Wickets_per_Match": 0.0074,
+      "Batting_Average": 0.0069,
+      "Batted": 0.0009,
+      "Bowled": 0.0005
+    }
+  },
+  "perf": {
+    "results": {
+      "Ridge Regression": {
+        "MAE": 1.7914243792640006,
+        "RMSE": 2.6265612075040594,
+        "R2": 0.5682655761812445,
+        "MAE_verified": 6.374197417399608
+      },
+      "Random Forest": {
+        "MAE": 1.514689712507057,
+        "RMSE": 2.3048658753560183,
+        "R2": 0.667544943690332,
+        "MAE_verified": 4.7352113837864955
+      },
+      "Gradient Boosting": {
+        "MAE": 1.5218184610173695,
+        "RMSE": 2.330619430578525,
+        "R2": 0.6600740247185302,
+        "MAE_verified": 4.572665712048674
+      }
+    },
+    "best": "Random Forest",
+    "resid_q10": -2.2050673569023482,
+    "resid_q90": 2.2165845282957877,
+    "importance": {
+      "Base_Price": 0.7173,
+      "Matches": 0.0507,
+      "Wickets": 0.0489,
+      "Economy": 0.0378,
+      "Runs": 0.0369,
+      "Runs_per_Match": 0.0302,
+      "Strike_Rate": 0.028,
+      "Wickets_per_Match": 0.0275,
+      "Batting_Average": 0.0202,
+      "Bowled": 0.0015,
+      "Batted": 0.0007
+    }
+  }
+}
